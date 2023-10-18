@@ -8,14 +8,10 @@ class bussiness_card:
         self.company_name = company_name
         self.position = position
         self.email = email
-
-        # Variables
     
-        @property
-        def name_lenght(self):
-            return len(self.name)
-        
-
+    @property
+    def name_lenght(self):
+        return len(self.name)
     
     def __str__(self):
         return f'{self.name} {self.surname} {self.email}'
@@ -38,5 +34,4 @@ for i in range(50):
 
 person1 = person()
 print(person1)
-
 print(person1.name_lenght)
