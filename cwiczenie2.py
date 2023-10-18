@@ -20,8 +20,8 @@ def person():
     fake_person = bussiness_card(name=fake_name, surname="", company_name=fake_company_name, position=fake_position, email=fake_email)
     return fake_person
 
-bussiness_cards = [for i in range(5):
-    print(person())]
+for i in range(5):
+    print(person())
 
 
 
